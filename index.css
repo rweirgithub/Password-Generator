@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(4, 36, 11);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+    max-width: 400px;
+    margin: 0 auto;
+
+}
+
+h2 {
+    font-size: 1em;
+    color: white;
+
+}
+
+h1 {
+    color: rgb(28, 184, 22);
+    margin: 0;
+    font-size: 3em;
+}
+
+button {
+    width: 150px;
+    padding: 10px 10px;
+    background-color: rgb(28, 184, 22);
+    border: transparent;
+    border-radius: 10px;
+    margin: 20px 0;
+    color: white;
+}
+
+hr {
+    width: 100%;
+    border: solid rgb(10, 102, 30) 2px;
+}
+
+.password {
+    padding: 20px;
+    background-color: rgb(10, 102, 30);
+    height: 10px;
+    width: 150px;
+    margin: 10px;
+    padding: 10px 15px;
+    border-radius: 100px;
+    text-align: center;
+    align-items: center;
+    color: rgb(28, 184, 22);
+}
+
+#password-container,
+#btn-container {
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    align-content: space-around;
+    justify-content: space-around;
+    text-align: center;
+}
